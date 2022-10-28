@@ -1,0 +1,135 @@
+body {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    margin: 0px;
+}
+/*HEADER///////////////////////////////////////*/
+header {
+    background-color: rgb(29, 35, 68);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-style: solid;
+    color:white;
+}
+header h1 {
+    background-color: grey;
+}
+.header-links {
+    background-color: grey;
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+    font-size: 20px;
+    padding: 0px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*SECTION ONE///////////////////////////////////////*/
+.section.one {
+    background-color: rgb(29, 35, 68);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+
+.section.one .info {
+    flex-direction: column;
+}
+.button {
+    background-color: rgb(61, 137, 252);
+    color: white;
+    border-radius: 6px;
+    padding: 8px 30px;
+    border-style: none;
+    font-weight: 900;
+}
+.img-puppy {
+    padding: 100px;
+    height: 300px;
+}
+
+/*SECTION TWO///////////////////////////////////////*/
+
+.section.two h2 {
+    text-align: center;
+}
+.cool-list {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    
+}
+.cool-list div {
+   /* display: flex;
+    flex-direction: column;
+    justify-content:flex-start; */
+    max-width: 110px; 
+
+}
+.box {
+    
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(61, 137, 252);
+    list-style-type: none;
+}
+.cool-list .text {
+    background-color: pink;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/*SECTION THREE///////////////////////////////////////*/
+.section.three {
+    background-color: rgb(207, 207, 207);
+    padding: 50px 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.section.three .quote {
+    min-width: 300px;
+    max-width: 300px;;
+}
+.section.three .name {
+    align-items: flex-end;
+    font-weight: 900;
+}
+/*SECTION FOUR///////////////////////////////////////*/
+.section.four {
+    background-color: rgb(29, 35, 68);
+    margin: 50px 100px;
+    padding: 25px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.section.four .text {
+    color: white;
+    margin: 0px;
+    
+}
+/*FOOTER///////////////////////////////////////*/
+footer {
+    background-color: rgb(29, 35, 68);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: auto;
+}
