@@ -1,25 +1,26 @@
 body {
+    background-color: rgb(29, 35, 68);
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     margin: 0px;
+    padding: 0px;
 }
 /*HEADER///////////////////////////////////////*/
 header {
     background-color: rgb(29, 35, 68);
+    margin: 0 auto;
+    max-width: 1000px;;
+    padding: 0 24px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    border-style: solid;
+    justify-content: space-between;
     color:white;
 }
-header h1 {
-    background-color: grey;
-}
 .header-links {
-    background-color: grey;
+
     display: flex;
     list-style-type: none;
     gap: 24px;
-    font-size: 20px;
+    font-size: 0.9em;
     padding: 0px;
     
 }
@@ -31,16 +32,28 @@ a {
 /*SECTION ONE///////////////////////////////////////*/
 .section.one {
     background-color: rgb(29, 35, 68);
+    margin: 0 auto;
+    max-width: 1100px;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-  
-   
 }
 
 .section.one .info {
     flex-direction: column;
+    width: 400px;
+}
+.section.one h1 {
+
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+.section.one p {
+
+    margin: 20px 0px;
+    padding: 0px;
 }
 .button {
     background-color: rgb(61, 137, 252);
@@ -51,78 +64,117 @@ a {
     font-weight: 900;
 }
 .img-puppy {
-    padding: 100px;
+    padding: 50px 0px;
     height: 300px;
 }
 
 /*SECTION TWO///////////////////////////////////////*/
-
+.section.two {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 .section.two h2 {
-    text-align: center;
+    
+    padding: 24px;
+    margin: 0px;
 }
 .cool-list {
     display: flex;
     justify-content: center;
     gap: 36px;
-    
+    margin: 0px;
 }
 .cool-list div {
-   /* display: flex;
-    flex-direction: column;
-    justify-content:flex-start; */
-    max-width: 110px; 
 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 131px; 
+    margin-bottom: 50px;
 }
 .box {
-    
-    width: 100px;
-    height: 100px;
-    border-style: solid;
+
+  /*  border-style: solid;
+    border-width: 3px;
     border-radius: 10px;
-    border-color: rgb(61, 137, 252);
+    border-color: rgb(61, 137, 252);*/
     list-style-type: none;
+
+}
+
+.section.two .cool-list img {
+    list-style-type: none;
+    object-fit: fill;
+    border-radius: 5px;
+    width: 125px;
 }
 .cool-list .text {
-    background-color: pink;
-    font-size: 0.9em;
+    
+    font-size: 0.8em;
     text-align: center;
+    padding: 0px;
+    
 }
 
 /*SECTION THREE///////////////////////////////////////*/
 .section.three {
     background-color: rgb(207, 207, 207);
+}
+.section.three .container {
+
+    width: fit-content;
     padding: 50px 250px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 
 }
 .section.three .quote {
-    min-width: 300px;
-    max-width: 300px;;
+    min-width: 600px;
+    max-width: 600px;
+    font-family: serif;
+    font-size: 28px;
+    font-weight: 100;
 }
 .section.three .name {
-    align-items: flex-end;
+    align-self: flex-end;
     font-weight: 900;
 }
 /*SECTION FOUR///////////////////////////////////////*/
+
 .section.four {
-    background-color: rgb(29, 35, 68);
-    margin: 50px 100px;
-    padding: 25px;
-    border-radius: 8px;
+    background-color: white; 
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center; 
     
 }
+.section.four .inside {
+    background-color: rgb(61, 137, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 40px 60px;
+    max-width: 600px;
+    border-radius: 8px;
+    flex: 600px;
 
+}
 .section.four .text {
+
     color: white;
     margin: 0px;
     
+}
+.section.four .button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
 }
 /*FOOTER///////////////////////////////////////*/
 footer {
